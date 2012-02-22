@@ -7,3 +7,4 @@ What I hope this will initially provide:
 * Animated sprites from a texture sheet
 * Tilemaps
 
+This currently requires Unity 3.5, since I'm using text based scenes and meta files

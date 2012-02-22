@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\Inspectors\TilemapInspector.cs" />
+     <Compile Include="Assets\Editor\Menu Items\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">

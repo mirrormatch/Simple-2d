@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\Inspectors\TilemapInspector.cs" />
      <Compile Include="Assets\Editor\Menu Items\MainMenu.cs" />
+     <Compile Include="Assets\Editor\Tools\AtlasGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">

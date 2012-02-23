@@ -193,7 +193,7 @@ GameObject:
   - 33: {fileID: 1085563202}
   - 65: {fileID: 1085563203}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

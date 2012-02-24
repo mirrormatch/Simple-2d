@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\src\PixelPerfectOrthoCamera.cs" />
+     <Compile Include="Assets\src\ProceduralGeometry.cs" />
+     <Compile Include="Assets\src\Sprite.cs" />
+     <Compile Include="Assets\src\TextureAtlasInfo.cs" />
      <Compile Include="Assets\src\Tilemap.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

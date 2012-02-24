@@ -44,8 +44,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\Importers\TextureSettingModifier.cs" />
+     <Compile Include="Assets\Editor\Inspectors\SpriteInspector.cs" />
      <Compile Include="Assets\Editor\Inspectors\TilemapInspector.cs" />
      <Compile Include="Assets\Editor\Menu Items\MainMenu.cs" />
+     <Compile Include="Assets\Editor\Postprocessors\AtlasRefreshPostprocessor.cs" />
      <Compile Include="Assets\Editor\Tools\AtlasGenerator.cs" />
   </ItemGroup>
   <ItemGroup>

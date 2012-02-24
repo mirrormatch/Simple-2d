@@ -17,4 +17,12 @@ public class MainMenu : MonoBehaviour {
         var generator = new AtlasGenerator(srcFolder, destFolder);
         generator.ProcessAndSave();
     }
+    
+    [MenuItem ("Simple 2D/Create Sprite")]
+    static void CreateSprite() {
+        GameObject go = new GameObject("Sprite");
+        Sprite s = go.AddComponent<Sprite>();
+        s.Init();
+        Resources.UnloadUnusedAssets();
+    }
 }

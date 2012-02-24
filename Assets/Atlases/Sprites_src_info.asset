@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d5363eefb914759ac2f53444147974, type: 1}
+  m_Name: Sprites_src_info
+  srcDirectory: /Users/ryan/src/Simple2d/Assets/Sprites_src
+  textureFiles:
+  - /Users/ryan/src/Simple2d/Assets/Sprites_src/happizor.png
+  - /Users/ryan/src/Simple2d/Assets/Sprites_src/simple_player.png
+  - /Users/ryan/src/Simple2d/Assets/Sprites_src/skelelame.png
+  - /Users/ryan/src/Simple2d/Assets/Sprites_src/squidthulu.png
+  - /Users/ryan/src/Simple2d/Assets/Sprites_src/treasure_chest_closed.png
+  - /Users/ryan/src/Simple2d/Assets/Sprites_src/treasure_chest_open.png
+  textureNames:
+  - Sprites_src/happizor.png
+  - Sprites_src/simple_player.png
+  - Sprites_src/skelelame.png
+  - Sprites_src/squidthulu.png
+  - Sprites_src/treasure_chest_closed.png
+  - Sprites_src/treasure_chest_open.png
+  images:
+  - serializedVersion: 2
+    x: .5
+    y: 0
+    width: .25
+    height: .5
+  - serializedVersion: 2
+    x: .5
+    y: .5
+    width: .125
+    height: .25
+  - serializedVersion: 2
+    x: .75
+    y: 0
+    width: .25
+    height: .5
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: .5
+    height: 1
+  - serializedVersion: 2
+    x: .5
+    y: .75
+    width: .125
+    height: .25
+  - serializedVersion: 2
+    x: .625
+    y: .5
+    width: .125
+    height: .25
+  atlas: {fileID: 2800000, guid: f630753f238184451a48e1d3a3ea4256, type: 1}
+  material: {fileID: 2100000, guid: 9bbfd4236a35b4264a955b36f936b62d, type: 2}

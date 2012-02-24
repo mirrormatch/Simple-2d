@@ -15,7 +15,7 @@ public class TilemapInspector : Editor {
         EditorUtility.SetSelectedWireframeHidden(tm.gameObject.renderer, true);
     }
  
-    string[] TOOLS = { "Brush", "Eraser", "Fill" };
+    string[] TOOLS = { "Brush", "Eraser", "Fill" , "Clear"};
     int activeTool = 0;
  
     public override void OnInspectorGUI() {
@@ -127,6 +127,9 @@ public class TilemapInspector : Editor {
                 case 2:
                     tm.FillWith(selectedTile);
                     break;
+				case 3:
+					tm.FillWith(-1);
+					break;
                 }
             }
         }
